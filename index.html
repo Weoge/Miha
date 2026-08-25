@@ -9,6 +9,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            color: #fff;
         }
         body {
             background-color: #101010;
@@ -83,7 +84,7 @@
                     `;
                 } catch (error) {
                     console.error('ERROR OF FETCH:', error);
-                    imageContainer.innerHTML = 'ERROR OF LOAD IMAGE :(';
+                    imageContainer.innerHTML = 'FAILED TO LOAD IMAGE :(';
                 }
             }
         }
